@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     DOCKERHUB_CREDENTIALS = credentials('John-github')
-    APP_NAME = "ooghenekaro/nodejs-app"
+    APP_NAME = "johnpro2022/johnapp"
     }
     stages { 
         stage('SCM Checkout') {
